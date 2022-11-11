@@ -1,13 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import QLEditor from './QLEditor';
+import logo from "./logo.svg";
+import "./App.css";
+import "graphql-voyager/dist/voyager.css";
+import QLEditor from "./QLEditor";
 
 function App() {
-  return (
-    <div className="App">
-      <QLEditor />
-    </div>
-  );
+  return <QLEditor />;
 }
 
 export default App;
