@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import "./voyager.css";
+import "graphql-voyager/dist/voyager.css";
 import QLEditor from "./QLEditor";
 
 function App() {
